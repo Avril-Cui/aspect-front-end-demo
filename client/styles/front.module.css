@@ -1,0 +1,257 @@
+.pop_up_container {
+  position: fixed;
+  /* background: #00000050; */
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  width: 34.5em;
+  margin: 0 auto;
+  height: 10em;
+  margin-top: 8em;
+  background-color: #2c2c2c;
+  border-radius: 6px;
+  padding: 10px 20px;
+  z-index: 99999;
+  overflow: auto;
+  padding-bottom: 0em;
+}
+
+.box1 {
+  width: 28em;
+  margin: 0 auto;
+  margin-left: 27em;
+  height: 14em;
+  margin-top: 10em;
+  background-color: #2c2c2c;
+  border-radius: 6px;
+  padding: 10px 20px;
+  z-index: 99999;
+  overflow: auto;
+  padding-bottom: 0em;
+  border: #c3fcc2 solid 1px;
+}
+
+.box2 {
+  width: 28em;
+  margin: 0 auto;
+  margin-left: 25em;
+  height: 10em;
+  margin-top: 10em;
+  background-color: #2c2c2c;
+  border-radius: 6px;
+  padding: 10px 20px;
+  z-index: 99999;
+  overflow: auto;
+  padding-bottom: 0em;
+  border: #c3fcc2 solid 1px;
+}
+
+.box3 {
+  width: 25em;
+  margin: 0 auto;
+  margin-left: 55em;
+  height: 10em;
+  margin-top: 10em;
+  background-color: #2c2c2c;
+  border-radius: 6px;
+  padding: 10px 20px;
+  z-index: 99999;
+  overflow: auto;
+  padding-bottom: 0em;
+  border: #c3fcc2 solid 1px;
+}
+
+.end_season_note{
+  color: #ececec;
+  margin-left: 1em;
+}
+
+.end_season_note a{
+  color: #c3fcc2;
+  text-decoration: underline;
+}
+
+.end_season_note a:hover{
+  cursor: pointer;
+}
+
+.box4 {
+  width: 28em;
+  margin: 0 auto;
+  margin-left: 25em;
+  height: 12em;
+  margin-top: 10em;
+  background-color: #2c2c2c;
+  border-radius: 6px;
+  padding: 10px 20px;
+  z-index: 99999;
+  overflow: auto;
+  padding-bottom: 0em;
+  border: #c3fcc2 solid 1px;
+}
+
+.game_intro1{
+  color: #c3fcc2;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.close_candlestick{
+  font-size: 16px;
+  background-color: #c3fcc2ad;
+  color: #2f2f2fec;
+  padding: 0em 0.5em;
+  border-radius: 100px;
+  margin-left: 20.6em;
+}
+
+.game_intro_text1{
+  color: #dbdbdb;
+  font-size: 16px;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 0.5em;
+}
+
+.game_intro {
+  color: #c3fcc2;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.game_intro_text {
+  color: #a3a3a3;
+  font-size: 18px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.quit_intro {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 0.25em 0.5em;
+  border-radius: 6px;
+}
+
+.start_tutorial {
+  background-color: #577a60;
+  color: #e0e0e0;
+  padding: 0.25em 0.5em;
+  border-radius: 6px;
+  margin-left: 2em;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+.container {
+  margin-top: 8em;
+  padding-bottom: 10em;
+}
+
+.layer_one {
+  width: 1250px;
+}
+
+.header {
+  font-size: 22px;
+  color: #e0e0e0;
+  font-weight: 400;
+}
+
+.tutorial {
+  font-size: 18px;
+  width: 10em;
+  background-color: #c3fcc254;
+  color: #dadada;
+  padding: 0em 0.35em;
+  border-radius: 7px;
+  margin-left: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.tutorial:hover {
+  cursor: pointer;
+  background-color: #c3fcc286;;
+}
+
+.header span {
+  font-size: 20px;
+  background-color: #c3fcc254;
+  color: #afafaf;
+  padding: 0em 0.35em;
+  border-radius: 100px;
+}
+
+.header span:hover {
+  cursor: pointer;
+}
+
+.terms_theme {
+  width: 14em;
+  font-size: 46px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.terms_intro {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a3a3a3;
+  width: 30em;
+  margin-left: 4em;
+  padding-top: 1em;
+}
+
+.question_mark {
+  font-size: 18px;
+  height: 28px;
+  background-color: #c3fcc254;
+  color: #afafaf;
+  padding: 0em 0.55em;
+  border-radius: 100px;
+  margin-left: 1em;
+  margin-top: 0.2em;
+}
+
+.question_mark:hover {
+  cursor: pointer;
+}
+
+.date_container {
+  font-size: 16px;
+  margin-top: 1.5em;
+  background-color: #2f2f2f;
+  color: #cacaca;
+  width: 5em;
+  text-align: center;
+  padding: 0.25em 0em;
+  border-radius: 8px;
+}
+
+.screener_table {
+  border: 1px solid #494949;
+  padding-top: 0.6em;
+  padding-left: 0.75em;
+  padding-bottom: 1.25em;
+  width: 30em;
+  border-radius: 8px;
+}
+
+.leader_container {
+  border: 1px solid #494949;
+  padding-top: 0.1em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-bottom: 0.75em;
+  margin-left: 1em;
+  border-radius: 8px;
+}
